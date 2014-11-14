@@ -101,21 +101,6 @@
     <Compile Include="Enums\HtmlElementBy.cs" />
     <Compile Include="Flows\LoginPageFlow.cs" />
     <Compile Include="PageObjects\LoginPage.cs" />
-    <Compile Include="Resources\FBLandingResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>FBLandingResources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\FBLoginResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>FBLoginResources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\FBNewsFeedResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>FBNewsFeedResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Resources\LoginPageResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -170,18 +155,6 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\FBLandingResources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>FBLandingResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\FBLoginResources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>FBLoginResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\FBNewsFeedResources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>FBNewsFeedResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="Resources\LoginPageResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>LoginPageResources.Designer.cs</LastGenOutput>
