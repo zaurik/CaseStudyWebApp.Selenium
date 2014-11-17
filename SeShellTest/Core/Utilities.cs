@@ -249,15 +249,6 @@ namespace SeShell.Test.Core
                 serializer.Serialize(writer, foo);
             }
         }
-
-        public static FBLoginData GetBrowserBasedLoginCredentials(IWebDriver driver)
-        {
-            var loginTestData = FBLoginData.GetLoginTestCases(); 
-            string currentWebBrowserString = GetWebBrowser(driver);
-            WebBrowsers currentWebBrowser;
-            Enum.TryParse<WebBrowsers>(currentWebBrowserString, true, out currentWebBrowser);
-            return loginTestData.FirstOrDefault(x => x.BrowserTypeEnum == (int)currentWebBrowser);
-        }      
        
         /// <summary>
         /// Js the query date work around.

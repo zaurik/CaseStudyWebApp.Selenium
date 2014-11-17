@@ -10,3 +10,4 @@ cd ..
 cd SeShell.Test.XMLTestResult\bin\Debug\
 SeShell.Test.XMLTestResult.exe
 del /s C:\SeShellResult\*.xml 
+cd ..\..\..\DeploymentScripts
