@@ -37,11 +37,11 @@
   <ItemGroup>
     <Reference Include="Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Castle.Core.3.3.1\lib\net45\Castle.Core.dll</HintPath>
+      <HintPath>..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
     </Reference>
-    <Reference Include="ClosedXML, Version=0.75.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+    <Reference Include="ClosedXML, Version=0.76.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\ClosedXML.0.75.0\lib\net40-client\ClosedXML.dll</HintPath>
+      <HintPath>..\packages\ClosedXML.0.76.0\lib\net40-client\ClosedXML.dll</HintPath>
     </Reference>
     <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
@@ -50,13 +50,13 @@
     <Reference Include="nunit-console-runner">
       <HintPath>..\Lib\NUnit 2.6.3\bin\lib\nunit-console-runner.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.framework, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Lib\NUnit-2.6.0.12051\framework\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="Selenium.WebDriverBackedSelenium, Version=2.43.1.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Selenium.WebDriverBackedSelenium, Version=2.45.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Selenium.WebDriverBackedSelenium.2.43.1\lib\net40\Selenium.WebDriverBackedSelenium.dll</HintPath>
+      <HintPath>..\packages\Selenium.WebDriverBackedSelenium.2.45.0\lib\net40\Selenium.WebDriverBackedSelenium.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -69,17 +69,17 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="ThoughtWorks.Selenium.Core, Version=2.43.1.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="ThoughtWorks.Selenium.Core, Version=2.45.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Selenium.RC.2.43.1\lib\net40\ThoughtWorks.Selenium.Core.dll</HintPath>
+      <HintPath>..\packages\Selenium.RC.2.45.0\lib\net40\ThoughtWorks.Selenium.Core.dll</HintPath>
     </Reference>
-    <Reference Include="WebDriver, Version=2.43.1.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="WebDriver, Version=2.45.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Selenium.WebDriver.2.43.1\lib\net40\WebDriver.dll</HintPath>
+      <HintPath>..\packages\Selenium.WebDriver.2.45.0\lib\net40\WebDriver.dll</HintPath>
     </Reference>
-    <Reference Include="WebDriver.Support, Version=2.43.1.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="WebDriver.Support, Version=2.45.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Selenium.Support.2.43.1\lib\net40\WebDriver.Support.dll</HintPath>
+      <HintPath>..\packages\Selenium.Support.2.45.0\lib\net40\WebDriver.Support.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -127,9 +127,9 @@
       <Link>nunit-console.exe</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Scripts\jquery-2.1.1.intellisense.js" />
-    <Content Include="Scripts\jquery-2.1.1.js" />
-    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="TestData\UploadFiles\SeShellDemo1.txt" />
     <None Include="..\Lib\NUnit 2.6.3\bin\nunit-console.exe.config">
       <Link>nunit-console.exe.config</Link>
@@ -148,7 +148,7 @@
       <SubType>Designer</SubType>
     </Content>
     <None Include="packages.config" />
-    <None Include="Scripts\jquery-2.1.1.min.map" />
+    <None Include="Scripts\jquery-2.1.4.min.map" />
     <None Include="TestData\Files\LoginTestData.csv" />
   </ItemGroup>
   <ItemGroup>
